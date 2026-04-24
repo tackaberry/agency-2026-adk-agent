@@ -8,6 +8,7 @@
 
 ![Demo Screencast](screencast.gif)
 
+
 ## What This Agent Does
 
 This project features a **Sophisticated Conversational Analytics Agent** built with the Google Agent Development Kit (ADK) designed to act as an investigative researcher. It leverages LLMs (Gemini 3 Flash) to proactively aid transparency research by connecting raw financial and grant data to real-world impacts. 
