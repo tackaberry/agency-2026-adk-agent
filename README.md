@@ -6,7 +6,8 @@
 
 ## Demo Screencast
 
-<video src="./screencast.mp4" width="100%" controls autoplay loop></video>
+<video src="https://raw.githubusercontent.com/tackaberry/agency-2026-adk-agent/main/screencast.mp4" controls="controls">
+</video>
 
 ## What This Agent Does
 
