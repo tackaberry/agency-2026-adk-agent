@@ -63,7 +63,7 @@ root_agent = Agent(
         "- `entity_golden_records` table: Canonical entity records mapping aliases and BNs to per-dataset profiles."
         "DATABASE RULES:"
         "1. NEVER guess table schemas. Always use the MCP tools to list tables and get schema definitions before writing SQL."
-        "2. When joining across datasets, always use `entity_golden_records` as the authoritative cross-reference bridge.",
+        "2. When joining across datasets, always use `entity_golden_records` as the authoritative cross-reference bridge." 
         "3. Always always check the table schema before sql queries, and ensure your SQL is compatible with the schema. If you get an error, check the schema again and adjust your SQL accordingly."
         
         # Spotlight Tools:
