@@ -58,13 +58,13 @@ root_agent = Agent(
         
         # The datasets you have access to include:
         "CRITICAL DATA DICTIONARY - ALWAYS REFER TO THIS:"
-        "- `cra` dataset: Canada Revenue Agency T3010 Charity Data (financial statements, directors, gifts)."
-        "- `fed` dataset: Federal Grants & Contributions."
+        "- `fed` dataset: Federal Grants & Contributions. (Tables: `grants_contributions`, `agreement_type_lookup`, `recipient_type_lookup`)."
         "- `ab` dataset: Alberta Open Data (Tables: `ab_grants`, `ab_contracts`, `ab_sole_source`, `ab_non_profit`)."
         "- `entity_golden_records` table: Canonical entity records mapping aliases and BNs to per-dataset profiles."
         "DATABASE RULES:"
         "1. NEVER guess table schemas. Always use the MCP tools to list tables and get schema definitions before writing SQL."
-        "2. When joining across datasets, always use `entity_golden_records` as the authoritative cross-reference bridge."
+        "2. When joining across datasets, always use `entity_golden_records` as the authoritative cross-reference bridge.",
+        "3. Always always check the table schema before sql queries, and ensure your SQL is compatible with the schema. If you get an error, check the schema again and adjust your SQL accordingly."
         
         # Spotlight Tools:
         "When investigating suspicious entities, charities, or grants, use the Spotlight tools "

@@ -29,7 +29,7 @@ By unifying hard relational database querying with live web footprint analysis, 
 
 ## Running the demo
 
-> **Note:** The `toolbox` executable is excluded from this repository. You must download it before running the demo.
+> **Note:** The `toolbox` executable is excluded from this repository. You must download it before running the demo. You can find more information about the [MCP Toolbox](https://google.github.io/agent-development-kit/adk/tool-authoring/mcp-tools/overview/) in the official documentation.
 > 
 > ```bash
 > # Download the MCP toolbox binary (Update URL to the appropriate distribution source)
